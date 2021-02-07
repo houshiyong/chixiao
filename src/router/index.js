@@ -10,6 +10,8 @@ const OrderForm = () => import('@/views/orderForm/orderForm.vue') // 订单
 const Mine = () => import('@/views/Mine/mine.vue') // 我的
 const ExChange = () => import('@/views/exchange/exchange.vue') // 我的
 
+const Listcontent = () => import('@/views/Home/listcontent.vue')
+
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -42,6 +44,11 @@ const router = new VueRouter({
           path: '/mine',
           name: 'mine',
           component: Mine
+        },
+        {
+          path: '/listcontent',
+          name: 'listcontent',
+          component: Listcontent
         }
       ]
     },
@@ -50,6 +57,7 @@ const router = new VueRouter({
       name: 'login',
       component: Login
     }
+
   ]
 })
 
