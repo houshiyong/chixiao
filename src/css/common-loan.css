@@ -1,0 +1,38 @@
+.base-button {
+  width: 6.8rem;
+  height: 0.9rem;
+  border-radius: 0.1rem;
+  background-color: #feac00;
+  border: 1px solid #feac00;
+  border: none;
+  color: white;
+  font-size: 0.3rem;
+}
+ .reset_checkbox .cube-checkbox{
+  padding: 0 0.3rem;
+}
+ .reset_checkbox .cube-checkbox-wrap{
+  display: flex;
+  align-items: flex-start;
+}
+ .reset_checkbox .cube-checkbox-ui:before {
+  color: #00c3ab;
+}
+ .reset_checkbox .cube-checkbox-ui{
+  margin-top:0.05rem;
+}
+ .reset_checkbox .cube-checkbox_checked .cube-checkbox-ui i{
+  color:#00c3ab;
+}
+ .reset_checkbox_ml4{
+  margin-left:-0.4rem;
+}
+ .reset_pcolor{
+  color:#00c3ab;
+}
+.reset_checkbox_style{
+  margin:0 0.3rem;
+  margin-top: -0.2rem;
+  line-height: 1.5;
+  color:#666;
+}
