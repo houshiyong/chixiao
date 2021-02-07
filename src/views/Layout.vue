@@ -75,6 +75,7 @@ export default {
 
 <style lang='less'>
 // 去掉scoped 目的让样式在全局生效
+// noTop 没有上内边距
 // 我的 界面特殊  是没有导航栏   不需要上内边距
 .container{
   width: 100%;
