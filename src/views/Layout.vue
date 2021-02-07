@@ -77,7 +77,7 @@ export default {
 // 去掉scoped 目的让样式在全局生效
 // noTop 没有上内边距
 // 我的 界面特殊  是没有导航栏   不需要上内边距
-.container2{
+.container{
   width: 100%;
   height: 100%;
   position: relative;
@@ -91,4 +91,5 @@ export default {
     }
   }
 }
+
 </style>
