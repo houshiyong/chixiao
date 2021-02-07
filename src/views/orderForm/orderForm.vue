@@ -146,6 +146,7 @@ export default {
   }
 }
 
+
 .segmentation {
   height: 10px;
   background-color: #eee;
