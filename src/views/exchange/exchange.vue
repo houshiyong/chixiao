@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
-        兑换
-    </div>
+  <div class="container">
+    兑换
+  </div>
 </template>
 
 <script>
