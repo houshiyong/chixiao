@@ -27,7 +27,7 @@
     <van-tabs v-model="activeName">
       <div class="details_huibar" />
       <van-tab
-        title="标签 1"
+        title="兑换"
         style="padding-bottom: 2rem;"
       >
         <div
@@ -270,7 +270,7 @@
         </div>
       </van-tab>
       <van-tab
-        title="标签 2"
+        title="核销"
         style="padding-bottom:2rem;"
       >
         <div
@@ -451,7 +451,7 @@ export default {
   methods: {
     tijiao () {
       if (this.digit == '' || this.password == '') {
-        this.$toast.fail('失败文案')
+        this.$toast.fail('提交失败')
         return
       }
       this.$dialog.alert({

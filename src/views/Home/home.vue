@@ -138,7 +138,10 @@
             id="houDongZhuanQu"
             class="index-floor-list-el"
           >
-            <li class="index-floor-list-el-list">
+            <li
+              class="index-floor-list-el-list"
+              @click="toListTwo"
+            >
               <a>
                 <div><img
                   src="../../assets/img/88.png"
@@ -197,6 +200,9 @@ export default {
     },
     toListContent () {
       this.$router.push('/listcontent')
+    },
+    toListTwo () {
+      this.$router.push('/listtwo')
     }
   }
 }

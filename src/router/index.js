@@ -11,6 +11,7 @@ const Mine = () => import('@/views/Mine/mine.vue') // 我的
 const ExChange = () => import('@/views/exchange/exchange.vue') // 我的
 
 const Listcontent = () => import('@/views/Home/listcontent.vue')
+const Listtwo = () => import('@/views/Home/listtwo.vue')
 
 Vue.use(VueRouter)
 
@@ -49,6 +50,11 @@ const router = new VueRouter({
           path: '/listcontent',
           name: 'listcontent',
           component: Listcontent
+        },
+        {
+          path: '/listtwo',
+          name: 'listtwo',
+          component: Listtwo
         }
       ]
     },
