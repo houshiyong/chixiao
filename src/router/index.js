@@ -12,6 +12,7 @@ const ExChange = () => import('@/views/exchange/exchange.vue') // 我的
 
 const Listcontent = () => import('@/views/Home/listcontent.vue')
 const Listtwo = () => import('@/views/Home/listtwo.vue')
+const IntegralQuery = () => import('@/views/exchange/integralQuery.vue') // 积分查询
 
 Vue.use(VueRouter)
 
@@ -62,6 +63,11 @@ const router = new VueRouter({
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/integralQuery',
+      name: 'integralQuery',
+      component: IntegralQuery
     }
 
   ]
